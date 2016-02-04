@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <link rel="shortcut icon" href="images/favicon.png">
+	
+	    <title>PDM Model</title>
+	
+	    <!-- Bootstrap core CSS -->	
+	    <link href="../css/bootstrap.min.css" rel="stylesheet">
+	    <link href="../css/skins/default.css" rel="stylesheet">
+	    <link href="../css/skins/eden.css" rel="stylesheet">
+	    <link href="../css/animate.min.css" rel="stylesheet">
+	    <link href="../css/icons/icons.css" rel="stylesheet">
+	    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	    
+	    <link rel="stylesheet" href="../css/edit.css">
+		<link rel="stylesheet" href="../css/dimension.css">
+	    
+	   <!-- Custom styles for Cupid template -->
+	    <link href="../css/index.css" rel="stylesheet">
+	    
+    </head>
+    
+    <body data-spy="scroll" data-target="#topnav">
+        
+        <div class="navbar navbar-color navbar-fixed-top" id="topnav">
+		    <div class="container">
+		        <div class="navbar-header">
+		            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		                <span class="icon icon-reorder"></span>
+		            </button>
+		            <a class="navbar-brand white" href="#">
+		            	PDM</a>
+		        </div>
+		        <div class="navbar-collapse collapse">
+		            <ul class="nav navbar-nav">
+		                <li class="active"><a href="#home">Home</a></li>
+		                <li><a href="#services">Model</a></li>
+		                <li><a href="gerencia_rede/index.html">Tool</a></li>
+		                <li><a href="#clients">About</a></li>		
+		            </ul>
+		
+		        </div>
+		        <!--/.navbar-collapse -->
+		    </div>
+		</div>
+		
+		<div class="jumbotron" id="home">
+		    <div class="intro">
+		        <div class="container">
+		            <div class="row">
+		            	<div class="col-lg-12" >
+			            	<h2>Communication Type</h2>
+						</div>
+		           	</div>
+		        </div>
+		        
+		        <div class="container-fluid">
+		           	<div class="row">
+		            	<div class="col-lg-5" >
+		        			<div class="panel">	
+				        		<div class="panel-body">
+				        			<div id="comunicacao-1" class="container-grafico">
+					        				
+					        		</div>
+				        		</div>
+				        	</div>
+			        	
+				        	<div class="panel">    		
+				        		<div class="panel-body">
+				        			<div id="container-legenda-edit">
+				        				
+				 		        	</div>
+			        			</div>
+				        	</div>
+				        
+				        </div>
+				        
+				        <div class="col-lg-3">
+        					
+        					<div id="II1"  class="panel panel-default">
+	        					<div class="panel-heading">
+		        					<h5 class="panel-title">
+		        						<a href="#"><i class="fa fa-dashboard fa-fw"></i>Information Source<span class="fa arrow"></span></a>
+		        					</h5>    			
+				        		</div>  
+			        		  	<div class="panel-body">
+			        				<form class="form-horizontal" role="form">
+			        					<div class="form-group" id="individual-information-group">
+			        						 <span class="control-label col-sm-2 small" for="II1-group-form">Group</span>
+												<div class="col-sm-10">
+													<select class="form-control" id="II1-group-form">
+														<option class="form-control" selected="selected"></option>
+												    	<option class="form-control" name="II1-group" id="II1-group-0" value="5">5-Individual</option>
+												    	<option class="form-control" name="II1-group" id="II1-group-1" value="1">1-Other user</option>
+												  	</select>
+												  </div>
+										</div>
+										<div class="form-group" id="individual-information-level">
+											<span class="control-label col-sm-2 small">Level</span>
+											<div class="col-sm-10">
+												<select class="form-control" id="II1-level-form">
+													<option class="form-control" selected="selected"></option>
+											    	<option class="form-control" name="II1-level" id="II1-level-0" value="5">5</option>
+											    	<option class="form-control" name="II1-level" id="II1-level-1" value="4">4</option>
+											    	<option class="form-control" name="II1-level" id="II1-level-2" value="3">3</option>
+											    	<option class="form-control" name="II1-level" id="II1-level-3" value="2">2</option>
+											    	<option class="form-control" name="II1-level" id="II1-level-4" value="1">1</option>
+											    	<option class="form-control" name="II1-level" id="II1-level-5" value="0">0</option>
+												</select>
+											</div>
+										</div>
+								  	</form>
+								</div>
+							</div>
+							
+		        			<div id="CS2"  class="panel panel-default">
+		        				<div class="panel-heading">
+		        					<h5 class="panel-title">
+		        						<a href="#"><i class="fa fa-dashboard fa-fw"></i>Communication Space<span class="fa arrow"></span></a>
+		        					</h5>    			
+				        		</div>  
+				        		<div class="panel-body">
+			        				<form class="form-horizontal" role="form">
+			        					<div class="form-group" id="communication-space-group">
+			        						 <span class="control-label col-sm-2 small" for="CS2-group-form">Group</span>
+			        						 	<div class="col-sm-10">
+													<select class="form-control" id="CS2-group-form">
+														<option class="form-control" selected="selected"></option>
+												    	<option name="CS2-group" id="CS2-group-0" value="5">5-Individual’s profile space</option>
+												    	<option name="CS2-group" id="CS2-group-1" value="4">4-Individual’s publication space</option>
+													    <option name="CS2-group" id="CS2-group-2" value="2">2-Other’s space</option>
+													    <option name="CS2-group" id="CS2-group-3" value="1">1-Public space</option>
+												  	</select>
+												</div>
+										</div>
+										<div class="form-group" id="communication-space-level">
+											<span class="control-label col-sm-2 small">Level</span>
+											<div class="col-sm-10">
+												<select class="form-control" id="CS2-level-form">
+													<option class="form-control" selected="selected"></option>
+											    	<option class="form-control" name="CS2-level" id="CS2-level-0" value="5">5</option>
+											    	<option class="form-control" name="CS2-level" id="CS2-level-1" value="4">4</option>
+											    	<option class="form-control" name="CS2-level" id="CS2-level-2" value="3">3</option>
+											    	<option class="form-control" name="CS2-level" id="CS2-level-3" value="2">2</option>
+											    	<option class="form-control" name="CS2-level" id="CS2-level-4" value="1">1</option>
+											    	<option class="form-control" name="CS2-level" id="CS2-level-5" value="1">0</option>
+												</select>
+											</div>	
+										</div>	
+									</form>								
+			        			</div>
+			        		</div>
+			        	
+			        	<div id="AU3"  class="panel panel-default">
+	        				<div class="panel-heading">
+	        					<h5 class="panel-title">
+	        						<a href="#"><i class="fa fa-dashboard fa-fw"></i>Audience<span class="fa arrow"></span></a>
+	        					</h5>    			
+			        		</div>  
+		        			<div class="panel-body">
+			        				<form class="form-horizontal" role="form">
+			        					<div class="form-group" id="audience-group">
+			        						 <span class="control-label col-sm-2 small" for="AU3-group-form">Group</span>
+			        						 	<div class="col-sm-10">
+													<select class="form-control" id="AU3-group-form">
+														<option class="form-control" selected="selected"></option>
+												    	<option name="AU3-group" id="AU3-group-0" value="5">5-Individual</option>
+												    	<option name="AU3-group" id="AU3-group-1" value="4">4-Selected</option>
+													    <option name="AU3-group" id="AU3-group-2" value="3">3-Limited</option>
+													    <option name="AU3-group" id="AU3-group-3" value="2">2-Unlimited</option>
+													    <option name="AU3-group" id="AU3-group-4" value="1">1-Unknown</option>
+												  	</select>
+												</div>
+										</div>
+										<div class="form-group" id="audience-level">
+											<span class="control-label col-sm-2 small">Level</span>
+											<div class="col-sm-10">
+												<select class="form-control" id="AU3-level-form">
+													<option class="form-control" selected="selected"></option>
+											    	<option class="form-control" name="AU3-level" id="AU3-level-0" value="5">5</option>
+											    	<option class="form-control" name="AU3-level" id="AU3-level-1" value="4">4</option>
+											    	<option class="form-control" name="AU3-level" id="AU3-level-2" value="3">3</option>
+											    	<option class="form-control" name="AU3-level" id="AU3-level-3" value="2">2</option>
+											    	<option class="form-control" name="AU3-level" id="AU3-level-4" value="1">1</option>
+											    	<option class="form-control" name="AU3-level" id="AU3-level-5" value="0">0</option>
+												</select>
+											</div>	
+										</div>	
+									</form>	
+			        			</div>
+			        		</div>
+			        
+			        	
+		        		<div id="IS4"  class="panel panel-default">
+	        				<div class="panel-heading">
+	        					<h5 class="panel-title">
+	        						<a href="#"><i class="fa fa-dashboard fa-fw"></i>Information Content<span class="fa arrow"></span></a>
+	        					</h5>    			
+			        		</div>  
+			        		  		
+			        		<div class="panel-body">
+			        			<form class="form-horizontal" role="form">
+			        					<div class="form-group" id="information-content-group">
+			        						 <span class="control-label col-sm-2 small" for="IS4-group-form">Group</span>
+												<div class="col-sm-10">
+													<select class="form-control" id="IS4-group-form">
+														<option class="form-control" selected="selected"></option>
+												    	<option name="IS4-group" id="IS4-group-0" value="5">5-Least personal</option>
+												    	<option name="IS4-group" id="IS4-group-1" value="4">4-Slightly personal</option>
+													    <option name="IS4-group" id="IS4-group-2" value="3">3-Somewhat personal</option>
+													    <option name="IS4-group" id="IS4-group-3" value="2">2-Personal</option>
+													    <option name="IS4-group" id="IS4-group-4" value="1">1-Very personal</option>
+												  	</select>
+												  </div>
+										</div>
+										<div class="form-group" id="information-content-level">
+											<span class="control-label col-sm-2 small">Level</span>
+											<div class="col-sm-10">
+												<select class="form-control" id="IS4-level-form">
+													<option class="form-control" selected="selected"></option>
+											    	<option class="form-control" name="IS4-level" id="IS4-level-0" value="5">5</option>
+											    	<option class="form-control" name="IS4-level" id="IS4-level-1" value="4">4</option>
+											    	<option class="form-control" name="IS4-level" id="IS4-level-2" value="3">3</option>
+											    	<option class="form-control" name="IS4-level" id="IS4-level-3" value="2">2</option>
+											    	<option class="form-control" name="IS4-level" id="IS4-level-4" value="1">1</option>
+											    	<option class="form-control" name="IS4-level" id="IS4-level-5" value="0">0</option>
+												</select>
+										</div>
+									</div>
+								</form>
+				        	</div>
+			        	</div>
+		        	</div>
+		        	
+		        	<div class="col-lg-3">
+        				
+		        		<div id="ID6"  class="panel panel-default">
+	        				<div class="panel-heading">
+	        					<h5 class="panel-title">
+	        						<a href="#"><i class="fa fa-dashboard fa-fw"></i>Information Dissemination<span class="fa arrow"></span></a>
+	        					</h5>    			
+			        		</div>  
+			        		  		
+			        		<div class="panel-body">
+			        				<form class="form-horizontal" role="form">
+			        					<div class="form-group" id="information-dissemination-group">
+			        						 <span class="control-label col-sm-2 small" for="ID6-group-form">Group</span>
+												<div class="col-sm-10">
+													<select class="form-control" id="ID6-group-form">
+														<option class="form-control" selected="selected"></option>
+												    	<option name="ID6-group" id="ID6-group-0" value="5">5-Absent</option>
+												    	<option name="ID6-group" id="ID6-group-1" value="3">3-Limited</option>
+													    <option name="ID6-group" id="ID6-group-2" value="1">1-Unlimited</option>
+												  	</select>
+												  </div>
+										</div>
+										<div class="form-group" id="information-dissemination-level">
+											<span class="control-label col-sm-2 small">Level</span>
+											<div class="col-sm-10">
+												<select class="form-control" id="ID6-level-form">
+													<option class="form-control" selected="selected"></option>
+												    	<option class="form-control" name="ID6-level" id="ID6-level-0" value="5">5</option>
+												    	<option class="form-control" name="ID6-level" id="ID6-level-1" value="4">4</option>
+												    	<option class="form-control" name="ID6-level" id="ID6-level-2" value="3">3</option>
+												    	<option class="form-control" name="ID6-level" id="ID6-level-3" value="2">2</option>
+												    	<option class="form-control" name="ID6-level" id="ID6-level-4" value="1">1</option>
+												    	<option class="form-control" name="ID6-level" id="ID6-level-5" value="0">0</option>
+												 </select>
+											</div>
+										</div>
+									</form>
+								 </div>
+			        		</div>
+			        	
+		        			<div id="NO7"  class="panel panel-default">
+		        				<div class="panel-heading">
+		        					<h5 class="panel-title">
+		        						<a href="#"><i class="fa fa-dashboard fa-fw"></i>Notification<span class="fa arrow"></span></a>
+		        					</h5>    			
+				        		</div>  
+				        		<div class="panel-body">
+				        			<form class="form-horizontal" role="form">
+			        					<div class="form-group" id="notification-others-group">
+			        						 <span class="control-label col-sm-2 small" for="NO7-group-form">Group</span>
+												<div class="col-sm-10">
+													<select class="form-control" id="NO7-group-form">
+														<option class="form-control" selected="selected"></option>
+												    	<option name="NO7-group" id="NO7-group-0" value="5">5-Complete</option>
+												    	<option name="NO7-group" id="NO7-group-1" value="3">3-Partial</option>
+													    <option name="NO7-group" id="NO7-group-2" value="1">1-Absent</option>
+												  	</select>
+												  </div>
+										</div>
+										<div class="form-group" id="notification-others-level">
+											<span class="control-label col-sm-2 small">Level</span>
+											<div class="col-sm-10">
+												<select class="form-control" id="NO7-level-form">
+													<option class="form-control" selected="selected"></option>
+												    	<option class="form-control" name="NO7-level" id="NO7-level-0" value="5">5</option>
+												    	<option class="form-control" name="NO7-level" id="NO7-level-1" value="4">4</option>
+												    	<option class="form-control" name="NO7-level" id="NO7-level-2" value="3">3</option>
+												    	<option class="form-control" name="NO7-level" id="NO7-level-3" value="2">2</option>
+												    	<option class="form-control" name="NO7-level" id="NO7-level-4" value="1">1</option>
+												    	<option class="form-control" name="NO7-level" id="NO7-level-5" value="0">0</option>
+												 </select>
+											</div>
+										</div>
+									</form>
+			        		</div>
+			        	</div>
+			        		
+		        		<div id="TP8"  class="panel panel-default">
+        					<div class="panel-heading">
+	        					<h5 class="panel-title">
+	        						<a href="#"><i class="fa fa-dashboard fa-fw"></i>Temporal Persistence<span class="fa arrow"></span></a>
+	        					</h5>    			
+			        		</div>  
+			        		  		
+			        		<div class="panel-body">
+			        			<form class="form-horizontal" role="form">
+			        					<div class="form-group" id="temporal-persistence-group">
+			        						 <span class="control-label col-sm-2 small" for="TP8-group-form">Group</span>
+												<div class="col-sm-10">
+													<select class="form-control" id="TP8-group-form">
+														<option class="form-control" selected="selected"></option>
+												    	<option name="TP8-group" id="TP8-group-0" value="5">5-Instantaneous</option>
+											    		<option name="TP8-group" id="TP8-group-1" value="4">4-Limited time</option>
+													    <option name="TP8-group" id="TP8-group-2" value="2">2-Unlimited in one direction</option>
+												  		<option name="TP8-group" id="TP8-group-3" value="1">1-Forever</option>
+												  	</select>
+												  </div>
+										</div>
+										<div class="form-group" id="temporal-persistence-level">
+											<span class="control-label col-sm-2 small">Level</span>
+											<div class="col-sm-10">
+												<select class="form-control" id="TP8-level-form">
+													<option class="form-control" selected="selected"></option>
+												    	<option class="form-control" name="TP8-level" id="TP8-level-0" value="5">5</option>
+												    	<option class="form-control" name="TP8-level" id="TP8-level-1" value="4">4</option>
+												    	<option class="form-control" name="TP8-level" id="TP8-level-2" value="3">3</option>
+												    	<option class="form-control" name="TP8-level" id="TP8-level-3" value="2">2</option>
+												    	<option class="form-control" name="TP8-level" id="TP8-level-4" value="1">1</option>
+												    	<option class="form-control" name="TP8-level" id="TP8-level-5" value="0">0</option>
+												 </select>
+											</div>
+										</div>
+									</form>
+			        		</div>
+			        	</div>
+		        		
+	        			<div id="SS9"  class="panel panel-default">
+	        				<div class="panel-heading">
+	        					<h5 class="panel-title">
+	        						<a href="#"><i class="fa fa-dashboard fa-fw"></i>System Speech<span class="fa arrow"></span></a>
+	        					</h5>    			
+			        		</div>  
+			        		  		
+			        		<div class="panel-body">
+		        				<form class="form-horizontal" role="form">
+			        					<div class="form-group" id="system-speech-group">
+			        						 <span class="control-label col-sm-2 small" for="SS9-group-form">Group</span>
+												<div class="col-sm-10">
+													<select class="form-control" id="SS9-group-form">
+														<option class="form-control" selected="selected"></option>
+												    	<option name="SS9-group" id="SS9-group-0" value="5">5-Absent</option>
+												    	<option name="SS9-group" id="SS9-group-1" value="4">4-Highlight</option>
+													    <option name="SS9-group" id="SS9-group-2" value="2">2-New</option>
+												  	</select>
+												  </div>
+										</div>
+										<div class="form-group" id="system-speech-level">
+											<span class="control-label col-sm-2 small">Level</span>
+											<div class="col-sm-10">
+												<select class="form-control" id="SS9-level-form">
+													<option class="form-control" selected="selected"></option>
+												    	<option class="form-control" name="SS9-level" id="SS9-level-0" value="5">5</option>
+												    	<option class="form-control" name="SS9-level" id="SS9-level-1" value="4">4</option>
+												    	<option class="form-control" name="SS9-level" id="SS9-level-2" value="3">3</option>
+												    	<option class="form-control" name="SS9-level" id="SS9-level-3" value="2">2</option>
+												    	<option class="form-control" name="SS9-level" id="SS9-level-4" value="1">1</option>
+												    	<option class="form-control" name="SS9-level" id="SS9-level-5" value="0">0</option>
+												 </select>
+											</div>
+										</div>
+									</form>
+		        			</div>
+		        		</div>
+		        	</div>
+		        	
+		        </div><!--fecha row-->
+			</div> <!--fecha container-->    
+	        
+	        <div class="container">
+		        <div class="row">
+		        	<div class="col-lg-12" >
+		        		
+			        	<a href="create.html" class="btn btn-primary" role="button" >Previous</a>
+			        	<a href="new_analises.html" class="btn btn-primary pull-right" role="button" >Next</a>
+					</div>
+				</div>
+			</div>
+   					
+		    
+		</div><!--fecha intro-->
+	</div><!--fecha junbox-->
+	
+	
+	<footer id="footer">
+	    <div class="footer-copyright">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-2">
+	                    <a class="logo" href="index.html">
+	                        <b>PDM</b>
+	                    </a>
+	                </div>
+	                <div class="col-md-5">
+	                    <p>&copy; Copyright 2015 by <a target="_blank" href="http://pensi.dcc.ufmg.br/">PENSi</a>. All Rights Reserved.</p>
+	                </div>
+	                <div class="col-md-5">
+	                    <nav id="footer-menu">
+	                        <ul>
+	                            <li><a href="#">FAQ's</a></li>
+	                            <li><a href="#">Sitemap</a></li>
+	                            <li><a href="#">Contact</a></li>
+	                        </ul>
+	                    </nav>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<!--<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>-->
+	<script src="../js/vendor/d3.min.js"></script>
+	<script src="colmeia_create.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,10 @@
+communication_tipy,id,name,dimension_value,group,level,max,min,description
+3,II1,Individual's Information,"""personal""",2,1,,,This dimension is related to the element channel in Jakobson's model of communication and refers to where the information about the individual is disclosed within the system.
+3,CS2,Communication Space,"""Others' Space""",2,0,,,"This dimension is related to the element sender in Jakobson's model of communication and refers to who can determine how, when and to what extent information about the individual will be released through the system"
+3,AU3,Audience,"""unknown""",1,1,,,This dimension can be associated to either one of the elements message or channel in Jakobson's model of communication.
+3,IS4,Information Source,"""Individual""",3,0,,,This sub dimension refers to how the information is expressed in the system.
+3,NUL,Communication 3,,,,,,"This sub dimension represents the different levels of ""personalness"" associated to a piece of information being disclosed."
+3,ID6,Information Dissemination,"""absent""",4,0,,,"This dimension is related to the audience being able to share an individual's personal information with other users within the system, taking thus the control over such information."
+3,NO7,Notification on Other's Interaction,"""absent""",2,1,,,"This dimension involves the system suitably informing the individual about other users' activities that involve him/her, such as when other users refer to him/her, respond or share his/her post."
+3,TP8,Temporal Persistence,"""Forever""",1,7,,,This dimension is related to the element receiver in Jakobson's model of communication and refers to who will have access to the information about the individual within the system.
+3,SS9,System Speech,"""absent""",4,1,,,This dimension is related to the system disclosing to other users an individual's personal information.

@@ -1,0 +1,60 @@
+{
+  "pdm": [{
+    "id": "II1",
+    "name": "dimensao-1",
+    "translade_x": 150,
+    "translade_y": 0
+    },
+    {
+    
+    "id": "CS2",
+    "name": "dimensao-2",
+    "translade_x": 74,
+    "translade_y": 44
+    },
+    {
+    "id": "AU3",
+    "name": "dimensao-3",
+    "translade_x": 225,
+    "translade_y": 44
+    },
+    {
+    "id": "IS4",
+    "name": "dimensao-4",
+    "translade_x": 0,
+    "translade_y": 89
+   },
+    {
+    "id": "NUL",
+    "name": "dimensao-5",
+    "translade_x": 150,
+    "translade_y": 88
+    },
+    {
+	"id": "ID6",
+    "name": "dimensao-6",
+    "translade_x": 300,
+    "translade_y": 88
+    },
+    {
+    "id": "NO7",
+    "name": "dimensao-7",
+    "translade_x": 74,
+    "translade_y": 132
+    },
+    {
+    "id": "TP8",
+    "name": "dimensao-8",
+    "translade_x": 225,
+    "translade_y": 132
+    },
+    {
+    "id": "SS9",
+    "name": "dimensao-9",
+    "translade_x": 150,
+    "translade_y": 175
+    }
+  
+  ]
+
+} 
